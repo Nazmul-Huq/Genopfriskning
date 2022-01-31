@@ -36,11 +36,7 @@ public class SortingMain {
 
     } // main() ends here
 
-    public static void printWordsArray(String[] words){
-        for (String word:words) {
-            System.out.println(word);
-        }
-    }
+
 
     /**
      * get five words from user and save to the arraylist "words"
@@ -59,6 +55,16 @@ public class SortingMain {
             words[index] = word;
 
             index +=1;
+        }
+    }
+
+    /**
+     *  print a given array
+     * @param words
+     */
+    public static void printWordsArray(String[] words){
+        for (String word:words) {
+            System.out.println(word);
         }
     }
 
