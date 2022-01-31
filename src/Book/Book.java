@@ -16,26 +16,6 @@ public class Book {
         return isbnNumber;
     }
 
-    public void setIsbnNumber(int isbnNumber) {
-        this.isbnNumber = isbnNumber;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public int getPublishedYear() {
-        return publishedYear;
-    }
-
-    public void setPublishedYear(int publishedYear) {
-        this.publishedYear = publishedYear;
-    }
-
     @Override
     public String toString() {
         return "Book{" +

@@ -11,10 +11,6 @@ public class Library {
         this.books = new ArrayList<>();
     }
 
-    public void setBooks(List<Book> books) {
-        this.books = books;
-    }
-
     /**
      * add a book to the given library
      * @param book

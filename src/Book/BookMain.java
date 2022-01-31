@@ -15,8 +15,10 @@ public class BookMain {
         Book poem = new Book(789, "New Poem", 2015);
         nazmulLibrary.addBook(poem);
 
-        // this book is created but not added to the library
+        // these books is created but not added to the library
         Book thriller = new Book(100, "New Poem", 2019);
+        Book romance = new Book(101, "New Romance", 2016);
+
 
         // should return true
         System.out.println(nazmulLibrary.doesBookExist(novel));
